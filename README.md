@@ -14,7 +14,7 @@
 cd yolo_ws
 colcon build
 source install/setup.bash
-ros2 run yolov8_inference yolo_node
+ros2 launch yolov8_launch yolo_system_launch.py
 ```
 
 ## 🎯 주요 파일
