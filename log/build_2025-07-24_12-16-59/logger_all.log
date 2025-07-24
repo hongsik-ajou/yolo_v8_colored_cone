@@ -1,0 +1,229 @@
+[0.158s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.159s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3be0379a30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3be0379a30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3be03a7760>)
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.278s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hs/yolo_ws'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_cam) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_cam' with type 'ros.ament_python' and name 'yolov8_cam'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_inference) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_inference' with type 'ros.ament_python' and name 'yolov8_inference'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_launch) by extension 'ros'
+[0.292s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_launch' with type 'ros.ament_python' and name 'yolov8_launch'
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.318s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/hs/yolo_ws/install
+[0.319s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/foxy
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'cmake_args' from command line to 'None'
+[0.368s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hs/yolo_ws/build/yolov8_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hs/yolo_ws/install/yolov8_cam', 'merge_install': False, 'path': '/home/hs/yolo_ws/src/yolov8_cam', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_inference' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_inference' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hs/yolo_ws/build/yolov8_inference', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hs/yolo_ws/install/yolov8_inference', 'merge_install': False, 'path': '/home/hs/yolo_ws/src/yolov8_inference', 'symlink_install': False, 'test_result_base': None}
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'cmake_target' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.369s] Level 5:colcon.colcon_core.verb:set package 'yolov8_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.369s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hs/yolo_ws/build/yolov8_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hs/yolo_ws/install/yolov8_launch', 'merge_install': False, 'path': '/home/hs/yolo_ws/src/yolov8_launch', 'symlink_install': False, 'test_result_base': None}
+[0.370s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.371s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hs/yolo_ws/src/yolov8_cam' with build type 'ament_python'
+[0.371s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_cam', 'ament_prefix_path')
+[0.374s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/hook/ament_prefix_path.ps1'
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/hook/ament_prefix_path.dsv'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/hook/ament_prefix_path.sh'
+[0.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.385s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hs/yolo_ws/src/yolov8_inference' with build type 'ament_python'
+[0.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_inference', 'ament_prefix_path')
+[0.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/hook/ament_prefix_path.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/hook/ament_prefix_path.dsv'
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/hook/ament_prefix_path.sh'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.394s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hs/yolo_ws/src/yolov8_launch' with build type 'ament_python'
+[0.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_launch', 'ament_prefix_path')
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/hook/ament_prefix_path.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/hook/ament_prefix_path.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/hook/ament_prefix_path.sh'
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'yolov8_cam' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.602s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hs/yolo_ws/src/yolov8_cam'
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.811s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'yolov8_inference' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.811s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hs/yolo_ws/src/yolov8_inference'
+[0.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.022s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hs/yolo_ws/src/yolov8_launch'
+[1.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hs/yolo_ws/src/yolov8_launch': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_launch build --build-base /home/hs/yolo_ws/build/yolov8_launch/build install --record /home/hs/yolo_ws/build/yolov8_launch/install.log --install-scripts $base/lib/yolov8_launch --single-version-externally-managed install_data
+[1.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hs/yolo_ws/src/yolov8_cam': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_cam build --build-base /home/hs/yolo_ws/build/yolov8_cam/build install --record /home/hs/yolo_ws/build/yolov8_cam/install.log --install-scripts $base/lib/yolov8_cam --single-version-externally-managed install_data
+[1.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hs/yolo_ws/src/yolov8_inference': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_inference/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_inference build --build-base /home/hs/yolo_ws/build/yolov8_inference/build install --record /home/hs/yolo_ws/build/yolov8_inference/install.log --install-scripts $base/lib/yolov8_inference --single-version-externally-managed install_data
+[1.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hs/yolo_ws/src/yolov8_cam' returned '0': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_cam build --build-base /home/hs/yolo_ws/build/yolov8_cam/build install --record /home/hs/yolo_ws/build/yolov8_cam/install.log --install-scripts $base/lib/yolov8_cam --single-version-externally-managed install_data
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_cam' for CMake module files
+[1.694s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_cam' for CMake config files
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_cam/lib'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_cam/bin'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_cam/lib/pkgconfig/yolov8_cam.pc'
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_cam/lib/python3.8/site-packages'
+[1.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_cam', 'pythonpath')
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/hook/pythonpath.ps1'
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/hook/pythonpath.dsv'
+[1.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/hook/pythonpath.sh'
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_cam/bin'
+[1.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_cam)
+[1.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/package.ps1'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/package.dsv'
+[1.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/package.sh'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/package.bash'
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_cam/share/yolov8_cam/package.zsh'
+[1.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hs/yolo_ws/install/yolov8_cam/share/colcon-core/packages/yolov8_cam)
+[1.700s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_launch' for CMake module files
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_launch' for CMake config files
+[1.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hs/yolo_ws/src/yolov8_launch' returned '0': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_launch/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_launch build --build-base /home/hs/yolo_ws/build/yolov8_launch/build install --record /home/hs/yolo_ws/build/yolov8_launch/install.log --install-scripts $base/lib/yolov8_launch --single-version-externally-managed install_data
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_launch/lib'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_launch/bin'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_launch/lib/pkgconfig/yolov8_launch.pc'
+[1.702s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_launch/lib/python3.8/site-packages'
+[1.702s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_launch', 'pythonpath')
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/hook/pythonpath.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/hook/pythonpath.dsv'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/hook/pythonpath.sh'
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_launch/bin'
+[1.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_launch)
+[1.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/package.ps1'
+[1.704s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/package.dsv'
+[1.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/package.sh'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/package.bash'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_launch/share/yolov8_launch/package.zsh'
+[1.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hs/yolo_ws/install/yolov8_launch/share/colcon-core/packages/yolov8_launch)
+[1.708s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_inference' for CMake module files
+[1.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hs/yolo_ws/src/yolov8_inference' returned '0': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_inference/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_inference/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yolov8_inference build --build-base /home/hs/yolo_ws/build/yolov8_inference/build install --record /home/hs/yolo_ws/build/yolov8_inference/install.log --install-scripts $base/lib/yolov8_inference --single-version-externally-managed install_data
+[1.709s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_inference' for CMake config files
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_inference/lib'
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_inference/bin'
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_inference/lib/pkgconfig/yolov8_inference.pc'
+[1.710s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_inference/lib/python3.8/site-packages'
+[1.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_inference', 'pythonpath')
+[1.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/hook/pythonpath.ps1'
+[1.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/hook/pythonpath.dsv'
+[1.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/hook/pythonpath.sh'
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/hs/yolo_ws/install/yolov8_inference/bin'
+[1.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_inference)
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/package.ps1'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/package.dsv'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/package.sh'
+[1.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/package.bash'
+[1.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/hs/yolo_ws/install/yolov8_inference/share/yolov8_inference/package.zsh'
+[1.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hs/yolo_ws/install/yolov8_inference/share/colcon-core/packages/yolov8_inference)
+[1.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.713s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.713s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.722s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.737s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hs/yolo_ws/install/local_setup.ps1'
+[1.739s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hs/yolo_ws/install/_local_setup_util_ps1.py'
+[1.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hs/yolo_ws/install/setup.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hs/yolo_ws/install/local_setup.sh'
+[1.744s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hs/yolo_ws/install/_local_setup_util_sh.py'
+[1.745s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hs/yolo_ws/install/setup.sh'
+[1.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hs/yolo_ws/install/local_setup.bash'
+[1.748s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hs/yolo_ws/install/setup.bash'
+[1.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hs/yolo_ws/install/local_setup.zsh'
+[1.749s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hs/yolo_ws/install/setup.zsh'

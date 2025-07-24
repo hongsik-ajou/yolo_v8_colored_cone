@@ -1,0 +1,1 @@
+/home/hs/yolo_ws/build/yolov8_launch/launch/yolo_system_launch.py

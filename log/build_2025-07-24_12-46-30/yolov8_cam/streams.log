@@ -1,0 +1,17 @@
+[1.057s] Invoking command in '/home/hs/yolo_ws/build/yolov8_cam': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hs/yolo_ws/build/yolov8_cam/build --no-deps symlink_data
+[1.266s] running develop
+[1.388s] running egg_info
+[1.389s] writing yolov8_cam.egg-info/PKG-INFO
+[1.389s] writing dependency_links to yolov8_cam.egg-info/dependency_links.txt
+[1.389s] writing entry points to yolov8_cam.egg-info/entry_points.txt
+[1.389s] writing requirements to yolov8_cam.egg-info/requires.txt
+[1.389s] writing top-level names to yolov8_cam.egg-info/top_level.txt
+[1.414s] reading manifest file 'yolov8_cam.egg-info/SOURCES.txt'
+[1.415s] writing manifest file 'yolov8_cam.egg-info/SOURCES.txt'
+[1.448s] running build_ext
+[1.448s] Creating /home/hs/yolo_ws/install/yolov8_cam/lib/python3.8/site-packages/yolov8-cam.egg-link (link to .)
+[1.449s] Installing webcam_publisher script to /home/hs/yolo_ws/install/yolov8_cam/lib/yolov8_cam
+[1.450s] 
+[1.450s] Installed /home/hs/yolo_ws/build/yolov8_cam
+[1.450s] running symlink_data
+[1.512s] Invoked command in '/home/hs/yolo_ws/build/yolov8_cam' returned '0': PS1=(yolov8_env) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hs/yolo_ws/build/yolov8_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hs/yolo_ws/install/yolov8_cam/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hs/yolo_ws/build/yolov8_cam/build --no-deps symlink_data

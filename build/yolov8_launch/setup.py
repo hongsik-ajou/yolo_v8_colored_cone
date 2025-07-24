@@ -1,0 +1,1 @@
+/home/hs/yolo_ws/src/yolov8_launch/setup.py
