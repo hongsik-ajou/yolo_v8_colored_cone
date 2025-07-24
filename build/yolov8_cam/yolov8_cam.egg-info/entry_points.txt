@@ -1,3 +1,0 @@
-[console_scripts]
-webcam_publisher = yolov8_cam.webcam_publisher:main
-
